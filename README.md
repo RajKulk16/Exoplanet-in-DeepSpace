@@ -6,4 +6,4 @@
 
 > Algorithms used - Deep Sequential Model (ANN), Advanced Ensemble - LightGBM, HistGBM
 
-> ! Warning ! - better run the code in environment with CUDA,CUDNN
+> ! Warning ! - better run the code in environment with CUDA, CUDNN
