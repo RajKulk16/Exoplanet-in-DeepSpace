@@ -6,4 +6,6 @@
 
 > Algorithms used - Deep Sequential Model (ANN), Advanced Ensemble - LightGBM, HistGBM
 
+> Tuned parameters are stores in the Tuner Params directory (zipped). Can be used to study the architecture of the DeepNet model. 
+
 > ! Warning ! - better run the code in environment with CUDA, CUDNN
