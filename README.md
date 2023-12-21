@@ -1,11 +1,18 @@
-#  Exoplanet Prediction in Deep Space using DeepNet and Advance Ensemble 
+# Exoplanet Prediction in Deep Space using DeepNet and Advanced Ensemble 
 
-> Prediction of whether a planet is exoplanet or not.
+## Objective
+Predict whether a planet is an exoplanet or not.
 
-> Exoplanet is any planet in other solar system(s) and its presence is determined with the help of flux of the star the exoplanet is revolving.
+## Definition
+An exoplanet is any planet in other solar systems, and its presence is determined by analyzing the flux of the star it is revolving around.
 
-> Algorithms used - Deep Sequential Model (ANN), Advanced Ensemble - LightGBM, HistGBM, XGBoost
+## Algorithms Used
+- Deep Sequential Model (ANN): Utilized Keras Tuner for hyperparameter tuning, achieving an accuracy of 51.62%.
 
-> Tuned parameters are stores in the Tuner Params directory (zipped). Can be used to study the architecture of the DeepNet model. 
+- Advanced Ensemble:
+  - XGBoost: Hyperparameter tuned to achieve an accuracy of 96%.
+  - LightGBM: Hyperparameter tuned to achieve an accuracy of 97.19%.
+  - HistGBM: Hyperparameter tuned to achieve an accuracy of 97.45%.
 
-> ! Warning ! - better run the code in environment with CUDA, CUDNN
+## Tuned Parameters
+Tuned parameters are stored in the 'Tuner Params' directory (zipped) and can be used to study the architecture of the DeepNet model.
